@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form fill up</title>
+
+    <Style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        .com{
+            color: goldenrod;
+        }
+    </Style>
+   <link rel="stylesheet" href="styles/nav.css">
+   
+   
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form </form></a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <main>
+        <section>
+            <h2>Please fill up the form</h2>
+            <form>
+               <label for="name">Your Name : <input type="text" placeholder="Your Name"></label>
+               <label for="">Your Email : <input type="text" placeholder="Your Email"></label>
+               <label for="">Your Phone : <input type="text" placeholder="Your Mobile no"></label>
+
+               
+             <fieldset>
+                <legend>Pick one item</legend>
+                <label for=""> <input type="radio" name="laptop" id=""> Computer</label>
+                <label for=""> <input type="radio" name="laptop" id=""> Laptop</label>
+                <label for=""> <input type="radio" name="laptop" id=""> Tablet</label>
+              </fieldset>
+
+              <fieldset>
+                <legend>Pick one or more items</legend>
+                <label for=""><input type="checkbox" name="" id="">Keyboard</label>
+                <label for=""><input type="checkbox" name="" id="">Mouse </label>
+                <label for=""> <input type="checkbox" name="" id="">Charger</label>
+                <label for=""> <input type="checkbox" name="" id="">Sound Box</label>
+             </fieldset>
+
+             <fieldset>
+                <legend>Any Comments</legend>
+                <textarea class="com" name="" id="" cols="30" rows="10"></textarea>
+             </fieldset>
+
+             <input type="reset" value="Reset">
+             <input type="submit" value="Submit">
+              
+        
+
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
